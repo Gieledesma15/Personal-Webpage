@@ -1,0 +1,229 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #d6d6d6; 
+    padding-top: 4%;
+    padding-left: 17%;
+}         
+.mainpage {
+    background-image: url('bgproj.1.png');
+    background-repeat: no-repeat;
+    height: 590px;
+    width: 1000px;  
+    border-radius: 3%;
+    box-shadow: 30px 30px #6b6b6b;
+}
+header  {
+    display:flex;
+    position: cover;
+    align-items: center;
+   position: sticky;
+}
+#menu li {
+    font-size: 150%;
+    display: inline;
+    padding: 45px;
+}
+#menu a {
+    color: rgb(242, 243, 167);
+}
+div, section {
+    box-sizing: border-box;
+}
+#About {
+    background-color:#6b6b6b ;
+    box-shadow: 30px 30px black;
+    margin-top:10%;
+    border-radius:3%;
+    height: 700px;
+    width: 1000px;   
+}
+img {
+    height:90%;
+    width:40%;
+    padding-top: 2%;
+    padding-left: 3%;
+    border-radius: 15%;
+}
+.intro {
+    background-color:transparent;
+    border:5px solid transparent;
+    height: 50%;
+    width: 50%;
+    margin-right: 5%;
+    float:right;
+}
+p {
+    letter-spacing: 2px;
+    font-family: 'Oleo Script', cursive;
+    color: rgb(242, 243, 167);
+    padding-top: 6%;
+    font-size: 100%;
+    text-align: center;
+}
+.educ {
+    border: 2px solid transparent;
+    text-align: center;
+    color: rgb(242, 243, 167);
+    font-size: 100%;
+    font-family: 'Oleo Script', cursive;
+    letter-spacing: 2px;
+}
+#Gallery {
+    background-color:  #909090; ;
+    box-shadow: 30px 30px black;
+    margin-top:10%;
+    height: 590px;
+    width: 1000px;  
+    border-radius: 3%;  
+}
+.back {
+   background: rgb(233, 171, 161);
+   height: 40%;
+   width: 1000px;
+   border-radius: 3%;
+}
+.PORTRAIT {
+    width:1280px;
+    flex-direction:row;
+    position:relative;
+    padding-top: 5%;
+}
+.PORTRAIT .box {
+    position:relative;
+    left: 6%;
+    width:20%;
+    margin:1%;
+    display:inline-block;
+}
+.PORTRAIT .box .img1 .img2 .img3 {
+    position:relative;
+    overflow:hidden;
+}
+.PORTRAIT .box .img1 img {
+    width:95%;
+    transition:transform 1s;
+    height: 100%;
+}
+.PORTRAIT .box .img2 img {
+    width:95%;
+    transition:transform 1s;
+    height: 100%;
+}	
+.PORTRAIT .box .img3 img {
+    width:95%;
+    transition:transform 1s;
+    height: 100%;
+}
+.PORTRAIT .box:hover .img1 img {
+    transform:scale(1.2);
+}
+.PORTRAIT .box:hover .img2 img {
+    transform:scale(1.2);
+}	
+.PORTRAIT .box:hover .img3 img {
+    transform:scale(1.2);
+}
+.PORTRAIT .box .details {
+    border:5px solid rgb(233, 171, 161);
+    position:absolute;
+    top:10px;
+    left:10px;
+    bottom:10px;
+    right:10px;
+    background:gray;
+ 
+    transform:scaleY(0);
+    transition:transform .5s;
+}
+.PORTRAIT .box:hover .details {
+    transform:scaleY(1);
+}
+.PORTRAIT .box .details .content {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+    color:white;
+}
+.PORTRAIT .box .details .content h2 {
+    font-family: 'Rampart One', cursive;
+    margin:0;
+    padding:0;
+    font-size: 30px;
+    color:rgb(233, 171, 161);
+}
+.PORTRAIT .box .details .content h5 {
+    font-family: 'Rampart One', cursive;
+    text-align: center;
+    margin:10px 0 0;
+    padding:0;
+    font-size: 130%;
+    color:rgb(233, 171, 161);
+    letter-spacing: 2px;
+}
+.qoute {
+    height: 20%;
+    width: 100%;
+    margin-top: 22%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 170%;
+    color:rgb(233, 171, 161);
+    text-indent: 50px;
+    text-align: center;
+}
+#Contact {
+    background-image: url('contpic.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #bbb8b8;
+    box-shadow: 30px 30px black;
+    margin-top:10%;
+    height: 590px;
+    width: 1000px;  
+    border-radius: 3%; 
+    margin-bottom: 10%; 
+    padding-top:2% ;
+}
+.fill {
+    border-right: 5px solid gray;
+    height: 70%;
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+}
+h1 {
+    color: rgb(241, 220, 220);
+    text-align: center;
+}
+form {
+    color: rgb(241, 220, 220);
+    text-align: center;
+    padding-bottom: 5%;
+}
+form input {
+    text-align: center;
+    left:150px;
+    top:-25px;
+    line-height:30px;
+    width: 17%;
+    border-radius: 5px;
+    padding: 0 100px;
+    background: none;
+    border:2px solid  rgb(241, 220, 220);
+}
+.info {
+    border:5px solid transparent;
+    height: 70%;
+    width: 50%;
+    float: right;
+    padding-top: 7%;
+    text-align: center;
+    color: rgb(241, 220, 220); 
+    margin-top: 5%;
+}
+a {
+    color: rgb(241, 220, 220);
+}
